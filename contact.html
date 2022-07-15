@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+</head>
+<style>
+    div.cs{ padding: 1;}
+    p.name{font: 1.3em sans-serif;;}
+    input.input-padding-16{padding: 16;}
+    .button
+     {background-color: greenyellow;
+      padding: 16px;
+      font-size: 16px;
+      border : none;
+      cursor : pointer;}
+      input[type=text],[type=email],select{
+        width: 60%;
+        padding: 12px 20px;
+        margin: 0px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+
+</style>
+<body style="background-image: url(2.jpg); background-size: 1550px 800px;">
+    <!-- Contact Section -->
+  <div class="cs" id="contact">
+    <h1>CONTACT</h1>
+    <p style="font: 1.1em sans-serif;">We always welcome your suggestions and reviews.This is your site so feelfree to send us improvements you wantin this Do not hesitate to contact us.</p>
+    <p class="name"><b>Sudarshan Pendhari</b></p>
+    <p style="font: 1.1em sans-serif;">You can also contact us by phone <b> 8788246406</b> or email <b> sudarshanrpendhari@gmail.com</b>, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <label for="name">Name</label>
+      <p><input class="input -padding-16" type="text" placeholder="Enter your Name..."></p>
+      <label for="email">Email</label>
+      <p><input class="input -padding-16" type="email" placeholder="Enter your email...." required name="mail"></p>
+      <label for="M.N">Mobile No.</label>
+      <p><input class="input-padding-16" type=" mobile number" placeholder="Mobile Number.." required="10 numbers" style="padding: 5px 20px ;"></p>
+      <label for="SR">Suggestions or Review</label><br><br>
+      <textarea name="Suggestions or Review" id="review" cols="120" rows="10" placeholder="Suggestions or Review...." style="padding: 5px 20px ;"></textarea>
+      <p><button class="button " type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</body>
+</html>
